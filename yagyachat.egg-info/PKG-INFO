@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: yagyachat
+Version: 0.1
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: langchain
+Requires-Dist: uvicorn

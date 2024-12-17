@@ -1,0 +1,450 @@
+
+{
+  "4296e589-03a4-4133-9174-0b17acb97ec8": {
+    "session_id": "4296e589-03a4-4133-9174-0b17acb97ec8",
+    "user_id": "test_user",
+    "start_time": "2024-12-17T16:37:57.731153",
+    "last_active": "2024-12-17T16:38:00.697522",
+    "validation_history": [
+      {
+        "timestamp": "2024-12-17T16:37:57.733558",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to process preferences",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "PreferenceError",
+          "details": {
+            "error": "Failed to analyze preferences",
+            "input": "i want to be an engineer",
+            "type": "preference_update"
+          },
+          "timestamp": "2024-12-17T16:37:57.733558"
+        },
+        "guardrails_result": {}
+      },
+      {
+        "timestamp": "2024-12-17T16:37:57.959359",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to process preferences",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "PreferenceError",
+          "details": {
+            "error": "Failed to analyze preferences",
+            "input": "i want to be an engineer",
+            "type": "preference_update"
+          },
+          "timestamp": "2024-12-17T16:37:57.958674"
+        },
+        "guardrails_result": {}
+      },
+      {
+        "timestamp": "2024-12-17T16:37:59.525540",
+        "is_valid": true,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.6,
+        "safety_score": 1.0,
+        "context_score": 0.5,
+        "input_type": "new_query",
+        "error_message": null,
+        "missing_elements": [],
+        "suggestions": [
+          "Could you provide more context or specify what you would like to know about 'electrical'?"
+        ],
+        "clarification_questions": [],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "word_count": 1
+        },
+        "guardrails_result": {
+          "offensive_language": false,
+          "hate_speech": false,
+          "self_harm": false,
+          "violence": false,
+          "spam": false,
+          "bullying": false
+        }
+      },
+      {
+        "timestamp": "2024-12-17T16:37:59.571972",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to process preferences",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "PreferenceError",
+          "details": {
+            "error": "Failed to analyze preferences",
+            "input": "i want to be an engineer",
+            "type": "preference_update"
+          },
+          "timestamp": "2024-12-17T16:37:59.571972"
+        },
+        "guardrails_result": {}
+      },
+      {
+        "timestamp": "2024-12-17T16:38:00.697522",
+        "is_valid": true,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.8,
+        "safety_score": 1.0,
+        "context_score": 0.5,
+        "input_type": "new_query",
+        "error_message": null,
+        "missing_elements": [],
+        "suggestions": [],
+        "clarification_questions": [
+          "What aspect of electrical engineering are you interested in?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "input_length": 32,
+          "number_of_keywords": 2,
+          "keywords": [
+            "electrical",
+            "engineering"
+          ]
+        },
+        "guardrails_result": {
+          "offensive_language": false,
+          "hate_speech": false,
+          "spam": false,
+          "self_harm": false,
+          "misinformation": false
+        }
+      },
+      {
+        "timestamp": "2024-12-17T16:38:00.697522",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to retrieve conversation context",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "ConversationMemoryError",
+          "details": {
+            "error": "'ConversationMemory' object has no attribute 'get_last_validation_result'"
+          },
+          "timestamp": "2024-12-17T16:38:00.697522"
+        },
+        "guardrails_result": {}
+      }
+    ],
+    "detected_preferences": {},
+    "background_info": {},
+    "goals": []
+  },
+  "8df65ab8-9257-47bd-afaa-ad49556c6048": {
+    "session_id": "8df65ab8-9257-47bd-afaa-ad49556c6048",
+    "user_id": "user1",
+    "start_time": "2024-12-17T16:38:00.748056",
+    "last_active": "2024-12-17T16:38:00.751538",
+    "validation_history": [
+      {
+        "timestamp": "2024-12-17T16:38:00.751538",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to process preferences",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "PreferenceError",
+          "details": {
+            "error": "Failed to analyze preferences",
+            "input": "i want to learn python",
+            "type": "preference_update"
+          },
+          "timestamp": "2024-12-17T16:38:00.749826"
+        },
+        "guardrails_result": {}
+      }
+    ],
+    "detected_preferences": {},
+    "background_info": {},
+    "goals": []
+  },
+  "8448b8b9-6126-4290-b8e5-f9b64dd9a96b": {
+    "session_id": "8448b8b9-6126-4290-b8e5-f9b64dd9a96b",
+    "user_id": "user2",
+    "start_time": "2024-12-17T16:38:00.751538",
+    "last_active": "2024-12-17T16:38:00.753275",
+    "validation_history": [
+      {
+        "timestamp": "2024-12-17T16:38:00.753275",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to process preferences",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "PreferenceError",
+          "details": {
+            "error": "Failed to analyze preferences",
+            "input": "i want to learn java",
+            "type": "preference_update"
+          },
+          "timestamp": "2024-12-17T16:38:00.753275"
+        },
+        "guardrails_result": {}
+      }
+    ],
+    "detected_preferences": {},
+    "background_info": {},
+    "goals": []
+  },
+  "a9d9d50c-52ce-40fd-9b63-ba3ba846785c": {
+    "session_id": "a9d9d50c-52ce-40fd-9b63-ba3ba846785c",
+    "user_id": "prem",
+    "start_time": "2024-12-17T16:45:07.654695",
+    "last_active": "2024-12-17T16:51:41.097764",
+    "validation_history": [
+      {
+        "timestamp": "2024-12-17T16:45:21.226311",
+        "is_valid": true,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.6,
+        "safety_score": 1.0,
+        "context_score": 0.5,
+        "input_type": "new_query",
+        "error_message": null,
+        "missing_elements": [
+          "goals"
+        ],
+        "suggestions": [
+          "Please provide more details about your preferences or goals"
+        ],
+        "clarification_questions": [
+          "What animals do you love?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "input_length": 21
+        },
+        "guardrails_result": {
+          "offensive_language": false,
+          "hate_speech": false,
+          "spam": false,
+          "violence": false,
+          "self_harm": false,
+          "sexual_content": false,
+          "harassment": false
+        }
+      },
+      {
+        "timestamp": "2024-12-17T16:50:51.713038",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to retrieve conversation context",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "ConversationMemoryError",
+          "details": {
+            "error": "'ConversationMemory' object has no attribute 'get_last_validation_result'"
+          },
+          "timestamp": "2024-12-17T16:50:51.713038"
+        },
+        "guardrails_result": {}
+      },
+      {
+        "timestamp": "2024-12-17T16:51:14.153406",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to retrieve conversation context",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "ConversationMemoryError",
+          "details": {
+            "error": "'ConversationMemory' object has no attribute 'get_last_validation_result'"
+          },
+          "timestamp": "2024-12-17T16:51:14.153406"
+        },
+        "guardrails_result": {}
+      },
+      {
+        "timestamp": "2024-12-17T16:51:41.097764",
+        "is_valid": false,
+        "has_background": false,
+        "has_goals": false,
+        "background_completeness": 0.0,
+        "goals_clarity": 0.0,
+        "clarity_score": 0.0,
+        "safety_score": 0.0,
+        "context_score": 0.0,
+        "input_type": "invalid_input",
+        "error_message": "Failed to retrieve conversation context",
+        "missing_elements": [],
+        "suggestions": [
+          "Please try again with valid input",
+          "If the error persists, try rephrasing your request"
+        ],
+        "clarification_questions": [
+          "Could you please provide your input in a different way?"
+        ],
+        "detected_preferences": {},
+        "background_info": {},
+        "goals": [],
+        "validation_details": {
+          "error_type": "ConversationMemoryError",
+          "details": {
+            "error": "'ConversationMemory' object has no attribute 'get_last_validation_result'"
+          },
+          "timestamp": "2024-12-17T16:51:41.097764"
+        },
+        "guardrails_result": {}
+      }
+    ],
+    "detected_preferences": {},
+    "background_info": {},
+    "goals": []
+  }
+}
